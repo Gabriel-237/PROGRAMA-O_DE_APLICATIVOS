@@ -1,0 +1,98 @@
+public class Atividade {
+    public static void manin (String [] args) thrcws Exception {
+
+
+        //Nivel 1 (Tipos inteiros) , numero 1
+        int a = 5;
+        System.out.println("A: "+ a);
+
+
+        int b = 3;
+        System.out.println("B: "+ b);
+
+
+        //Nivel 1, numero 2
+        int soma = a + b;
+        System.out.println("Soma: "+ soma);
+
+
+        //Nivel 1, numero 3
+        int idade = 16;
+        System.out.println("Idade: " + idade);
+
+
+        //Nivel 1, numero 4
+        int dobro = a * 2;
+        System.out.println("Dobro: " + dobro);
+
+
+         //Nivel 2, (Tipos reais), numero 5
+         double decimal = 1.2;
+         System.out.println("Decimal: " + decimal);
+
+
+          //Nivel 2, numero 6
+          double media = (a + b) / 2;
+          System.out.println("Media :" + media);
+
+
+          //Nivel 2, numero 7
+          double valorProduto = 20;
+          int quantidade = 5;
+          System.out.println("Total da compra: R$ " + valorProduto + quantidade);
+
+
+          //Nivel 3 (Tipos texto), numero 8
+          String nome = "Gabriel";
+          System.out.println(" Seja bem vindo (a) " + nome);
+
+
+          //Nivel 3, numero 9
+          String local = "Salvador";
+          System.out.println("Cidade: " + local);
+
+
+          //Nivel 4, (Tipo logico) numero 10
+          boolean aux = true;
+          System.out.println("Exibir: " + aux);
+
+
+          //Nivel 4, numero 11
+          boolean help = false;
+          System.out.println("Exibir 2: " + help);
+
+
+          //Nivel 5 (Tipo caractere), numero 12
+          char genero = 'F';
+          System.out.println("Genero: " + genero);
+
+
+          //Nivel  5, numero 13
+          char inicial = 'A';
+          System.out.println("Inicia: " + inicial);
+         
+          // Nivel 6 (Misturando tipos), numero 14
+          double altura = 1.60;
+          System.out.println("Nome: " + nome);
+          System.out.println("Idade; " + idade);
+          System.out.println("Altura: "+ altura);
+
+
+          //Nivel 6, numero 15
+          double AV1 = 9;
+          double AV2 = 7;
+          double mediaProva = (AV1 + AV2) / 2;
+          System.out.println("Nome: " + nome);
+          System.out.println("AV1: "+ AV1);
+          System.out.println("AV2: " + AV2);
+          System.out.println("Media: " + mediaProva);
+
+
+          //Desafio final, numero 16
+          String nomeProduto = "celular";
+          System.out.println("Nome do Produto: " + nomeProduto);
+          System.out.println("Preço: R$ " + valorProduto);
+          System.out.println("Quantidade: " + quantidade);
+          System.out.println("Total: R$ " + valorProduto * quantidade);
+    }
+}
