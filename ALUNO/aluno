@@ -1,0 +1,42 @@
+CREATE TABLE Aluno(
+	ID_Matricula INT PRIMARY KEY auto_increment,
+    Nome varchar (254) NOT NULL,
+    Curso varchar (254) NOT NULL,
+    Email VARCHAR (254) NOT NULL
+);
+INSERT INTO Aluno (Nome, Curso, Email) VALUES ('Gabriel', "Desenolvimento Sistema", "biel2009@gmail.com");
+select * from Aluno;
+
+CREATE TABLE Professor(
+	ID_PROF INT PRIMARY KEY auto_increment,
+    Nome varchar (254) NOT NULL,
+    Area_Especializacao varchar (254) NOT NULL
+);
+INSERT INTO Professor (Nome, Area_Especializacao) VALUES ("Jeovane", "Banco de dados");
+select * from Professor;
+
+CREATE TABLE DisPro(
+	ID_PROF INT PRIMARY KEY auto_increment,
+    ID_Cod INT 
+);
+INSERT INTO DisPro (ID_Cod) VALUES ("10");
+select * from DisPro;
+
+
+
+
+CREATE TABLE Dicisplina(
+	ID_Cod INT PRIMARY KEY auto_increment,
+    Nome_Dicisplina varchar (254) NOT NULL,
+    Carga_Horaria varchar (254) NOT NULL
+);
+INSERT INTO Dicisplina (Nome_Dicisplina, Carga_Horaria) VALUES ("bancon de dados", "90");
+select * from Dicisplina;
+
+CREATE TABLE Matricula (
+IDMatricula INT PRIMARY KEY AUTO_INCREMENT,
+    IDDisciplina INT,
+    Semestre INT
+);
+INSERT INTO Matricula (IDDisciplina, Semestre) VALUES ('0001','2');
+select * from Matricula;
